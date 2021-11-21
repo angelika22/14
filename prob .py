@@ -1,0 +1,7 @@
+x=str(input("primul sir- "))
+y=str(input("al doilea sir- "))
+x=set(x)
+y=set(y)
+print("x) caracterele care se intilnesc macar intr-un sir:", x.union(y))
+print("y) caracterele care apar in ambele siruri:", x.intersection(y))
+print("z) caracterele care apar doar in primul sir:", x.difference(y))
